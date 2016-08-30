@@ -1,4 +1,4 @@
-# Tips and Tricks for Udacity Reviewer
+# <img src="extension/images/icon-128.png" width="45" align="left"> Tips and Tricks for Udacity Reviewer
 
 > Tips and Tricks for Udacity Reviewer - Extension for modern browsers
 
