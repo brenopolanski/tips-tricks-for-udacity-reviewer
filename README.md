@@ -26,6 +26,13 @@
 
 *Coming soon*
 
+## Keyboard shortcuts
+
+- Show modal API: <kbd>g</kbd> <kbd>a</kbd>
+- go to Dashboard: <kbd>g</kbd> <kbd>d</kbd>
+- Scroll to top: <kbd>g</kbd> <kbd>g</kbd>
+- Scroll to bottom: <kbd>G</kbd>
+
 ## Contributing
 
 If you want to help, please read the [Contributing](https://github.com/brenopolanski/tips-tricks-for-udacity-reviewer/blob/master/CONTRIBUTING.md) guide.

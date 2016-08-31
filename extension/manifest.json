@@ -36,6 +36,7 @@
         "https://review.udacity.com/*"
       ],
       "js": [
+        "vendor/mousetrap.js",
         "scripts/content.js"
       ]
     }
