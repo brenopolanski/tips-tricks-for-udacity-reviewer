@@ -29,7 +29,7 @@
 ## Keyboard shortcuts
 
 - Show modal API: <kbd>g</kbd> <kbd>a</kbd>
-- go to Dashboard: <kbd>g</kbd> <kbd>d</kbd>
+- Go to Dashboard: <kbd>g</kbd> <kbd>d</kbd>
 - Scroll to top: <kbd>g</kbd> <kbd>g</kbd>
 - Scroll to bottom: <kbd>G</kbd>
 
