@@ -34,7 +34,7 @@
 
       let buttonsSavePreview = document.getElementsByClassName('btn btn-secondary');
 
-      Array.prototype.filter.call(buttonsSavePreview, function(elementoTeste) {
+      Array.prototype.filter.call(buttonsSavePreview, (elementoTeste) => {
         if (elementoTeste.nodeName === 'BUTTON') {
           elementoTeste.click();
         }
