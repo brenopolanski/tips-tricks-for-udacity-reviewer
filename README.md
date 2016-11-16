@@ -32,6 +32,7 @@
 - Go to Dashboard: <kbd>g</kbd> <kbd>d</kbd>
 - Scroll to top: <kbd>g</kbd> <kbd>g</kbd>
 - Scroll to bottom: <kbd>G</kbd>
+- Call button Save & Preview: <kbd>Ctrl</kbd> + <kbd>s</kbd>
 
 ## Contributing
 
