@@ -4,9 +4,12 @@
 
   function registerShortcuts() {
     // Disable the shortcuts when the focus is on input fields
-    Mousetrap.prototype.stopCallback = () => {
-      return false;
-    }
+    Mousetrap.prototype.stopCallback = (e, element, combo) => {
+      // If call button Save & Preview
+      if (combo === 'mod+s') {
+        return false;
+      }
+    };
 
     // Show modal API
     Mousetrap.bind('g a', () => {
@@ -34,9 +37,9 @@
 
       let buttonsSavePreview = document.getElementsByClassName('btn btn-secondary');
 
-      Array.prototype.filter.call(buttonsSavePreview, (elementoTeste) => {
-        if (elementoTeste.nodeName === 'BUTTON') {
-          elementoTeste.click();
+      Array.prototype.filter.call(buttonsSavePreview, (element) => {
+        if (element.nodeName === 'BUTTON') {
+          element.click();
         }
       });
 
