@@ -9,6 +9,12 @@
       if (combo === 'mod+s') {
         return false;
       }
+
+      // stop for input, select, and textarea
+      return element.tagName === 'INPUT' ||
+             element.tagName === 'SELECT' ||
+             element.tagName === 'TEXTAREA' ||
+             (element.contentEditable && element.contentEditable === 'true');
     };
 
     // Show modal API
