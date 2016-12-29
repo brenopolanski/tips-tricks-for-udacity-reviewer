@@ -33,6 +33,9 @@
 - Scroll to top: <kbd>g</kbd> <kbd>g</kbd>
 - Scroll to bottom: <kbd>G</kbd>
 - Call button Save & Preview: <kbd>Ctrl</kbd> + <kbd>s</kbd>
+- Open Udacity Frontend Nanodegree Style Guide: <kbd>g</kbd> <kbd>1</kbd>
+- Open W3C HTML validator: <kbd>g</kbd> <kbd>2</kbd>
+- Open W3C CSS validator: <kbd>g</kbd> <kbd>3</kbd>
 
 ## Contributing
 

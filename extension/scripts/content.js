@@ -41,7 +41,8 @@
     Mousetrap.bind('mod+s', () => {
       // 'mod+s' is a helper to ['command+s', 'ctrl+s']
 
-      let buttonsSavePreview = document.getElementsByClassName('btn btn-secondary');
+      let buttonsSavePreview =
+        document.getElementsByClassName('btn btn-secondary');
 
       Array.prototype.filter.call(buttonsSavePreview, (element) => {
         if (element.nodeName === 'BUTTON') {
@@ -52,6 +53,30 @@
       // return false to prevent default browser behavior
       // and stop event from bubbling
       return false;
+    });
+
+    // Open Udacity Frontend Nanodegree Style Guide
+    Mousetrap.bind('g 1', () => {
+      window.open(
+        'http://udacity.github.io/frontend-nanodegree-styleguide/',
+        '_blank'
+      );
+    });
+
+    // Open W3C HTML validator
+    Mousetrap.bind('g 2', () => {
+      window.open(
+        'https://validator.w3.org/#validate_by_input',
+        '_blank'
+      );
+    });
+
+    // Open W3C CSS validator
+    Mousetrap.bind('g 3', () => {
+      window.open(
+        'https://jigsaw.w3.org/css-validator/#validate_by_input',
+        '_blank'
+      );
     });
   }
 
