@@ -78,6 +78,11 @@
     Mousetrap.bind('g 4', () => {
       openPage('https://simplydallas.github.io/udacityreviewparser/');
     });
+
+    // Open Bootlint
+    Mousetrap.bind('g 5', () => {
+      openPage('http://www.bootlint.com/');
+    });
   }
 
   document.addEventListener('DOMContentLoaded', () => {

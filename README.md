@@ -37,6 +37,7 @@
 - Open W3C HTML validator: <kbd>g</kbd> <kbd>2</kbd>
 - Open W3C CSS validator: <kbd>g</kbd> <kbd>3</kbd>
 - Open Udacity Review Parser: <kbd>g</kbd> <kbd>4</kbd>
+- Open Bootlint: <kbd>g</kbd> <kbd>5</kbd>
 
 ## Contributing
 
