@@ -2,6 +2,10 @@
   const $ = document.querySelector.bind(document);
   const scrollToY = y => window.scrollTo(0, y);
 
+  function openPage(url) {
+    return window.open(url, '_blank');
+  }
+
   function registerShortcuts() {
     // Disable the shortcuts when the focus is on input fields
     Mousetrap.prototype.stopCallback = (e, element, combo) => {
@@ -57,26 +61,22 @@
 
     // Open Udacity Frontend Nanodegree Style Guide
     Mousetrap.bind('g 1', () => {
-      window.open(
-        'http://udacity.github.io/frontend-nanodegree-styleguide/',
-        '_blank'
-      );
+      openPage('http://udacity.github.io/frontend-nanodegree-styleguide/');
     });
 
     // Open W3C HTML validator
     Mousetrap.bind('g 2', () => {
-      window.open(
-        'https://validator.w3.org/#validate_by_input',
-        '_blank'
-      );
+      openPage('https://validator.w3.org/#validate_by_input');
     });
 
     // Open W3C CSS validator
     Mousetrap.bind('g 3', () => {
-      window.open(
-        'https://jigsaw.w3.org/css-validator/#validate_by_input',
-        '_blank'
-      );
+      openPage('https://jigsaw.w3.org/css-validator/#validate_by_input');
+    });
+
+    // Open Udacity Review Parser
+    Mousetrap.bind('g 4', () => {
+      openPage('https://simplydallas.github.io/udacityreviewparser/');
     });
   }
 
