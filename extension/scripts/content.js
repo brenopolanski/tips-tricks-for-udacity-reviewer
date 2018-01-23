@@ -45,11 +45,27 @@
     Mousetrap.bind('mod+s', () => {
       // 'mod+s' is a helper to ['command+s', 'ctrl+s']
 
-      let buttonsSavePreview =
+      const buttonsSavePreview =
         document.getElementsByClassName('btn btn-secondary');
 
       Array.prototype.filter.call(buttonsSavePreview, (element) => {
         if (element.nodeName === 'BUTTON') {
+          element.click();
+        }
+      });
+
+      // return false to prevent default browser behavior
+      // and stop event from bubbling
+      return false;
+    });
+
+    // Check all radio buttons with the value `passed`
+    Mousetrap.bind('c r', () => {
+      const radioButtonsPassed = document.querySelectorAll('input[type=radio]');
+
+      Array.prototype.filter.call(radioButtonsPassed, (element) => {
+        if (element.value === 'passed') {
+          element.checked = true;
           element.click();
         }
       });
