@@ -53,4 +53,4 @@ For detailed changelog, see [Releases](https://github.com/brenopolanski/tips-tri
 
 ## License
 
-[MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
+[MIT License](https://brenopolanski.mit-license.org/) © Breno Polanski
